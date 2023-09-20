@@ -1,6 +1,5 @@
 import { Request, Response } from "express";
 import httpStatus from "http-status";
-
 import productService from "../services/product-service";
 
 async function getProducts(req: Request, res: Response) {
